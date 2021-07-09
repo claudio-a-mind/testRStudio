@@ -47,3 +47,5 @@ TablaAux = DF_AUX %>%
 TablaAux %>% filter(Account == "Banco BICE") 
 
 with(TablaAux, Suma[Account == "Banco BICE"] > 0)
+
+## Coment
